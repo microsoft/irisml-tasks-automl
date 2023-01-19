@@ -2,7 +2,7 @@ from copy import deepcopy
 
 import pytest
 
-from iris_automl import FlexibleBaseConfig, ConfigVarAccessor, TrainLog, SinglePeakPruner
+from irisml_tasks_automl import FlexibleBaseConfig, ConfigVarAccessor, TrainLog, SinglePeakPruner
 
 
 class FakeConfig(FlexibleBaseConfig):

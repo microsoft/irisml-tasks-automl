@@ -1,7 +1,7 @@
 import pytest
 from copy import deepcopy
 from unittest import mock
-from iris_automl import SinglePeakPruner, SingleVarSearchController, GridSearchController, SearchDimension, StageWiseSearchController, AlterDecorator, TrainLog, FlexibleBaseConfig, ConfigVarAccessor
+from irisml_tasks_automl import SinglePeakPruner, SingleVarSearchController, GridSearchController, SearchDimension, StageWiseSearchController, AlterDecorator, TrainLog, FlexibleBaseConfig, ConfigVarAccessor
 
 
 class FakeConfig(FlexibleBaseConfig):

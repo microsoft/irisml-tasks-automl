@@ -1,4 +1,4 @@
-from iris_automl import DictConfigVarAccessor, DictBasedConfig
+from irisml_tasks_automl import DictConfigVarAccessor, DictBasedConfig
 import pytest
 
 
